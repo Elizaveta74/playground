@@ -1,10 +1,10 @@
 # Playground
 
-This reporsitory contains projects for various platforms and programming languages. The main purpose of the repository is to interact with the student doing the assignments.
+This repository contains projects for different platforms and programming languages. The main purpose of the repository is to interact with the students doing the assignments.
 
 ## Table of Contents
 
-01. [C Sharp](CSharp/README.md)
+01. [CSharp](CSharp/README.md)
 02. [JavaScript](JavaScript/README.md)
 03. [TypeScript](TypeScript/README.md)
 
