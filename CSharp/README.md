@@ -4,4 +4,4 @@ This repository contains projects for C#. The main purpose of the repository is 
 
 ## Table of Contents
 
-1. [Functions Demo](/00001.%20Functions/00001.%20Functions/Program.cs)
+1. [Functions Demo](00001.%20Functions/)
