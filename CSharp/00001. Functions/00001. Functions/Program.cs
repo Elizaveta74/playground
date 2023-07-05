@@ -58,7 +58,7 @@ int subtract(int a, int b)
     return result;
 }
 
-Console.WriteLine("======== Calling void method without arguments ============");
+Console.WriteLine("======== Calling void function without arguments ============");
 
 calculateAnDisplayResults();
 
@@ -77,4 +77,27 @@ void calculateAnDisplayResults()
 
     Console.WriteLine($"sum result f = {f}");
     Console.WriteLine($"subtraction result h = {h}");
+}
+
+
+Console.WriteLine("======== Calling function with one argument and returns tuple ============");
+
+string someInitialText = "BBBBBBBBBBB";
+(int intRandomValue, string processedText) = GetRandomNumberWithSomeText(someInitialText);
+
+Console.WriteLine($"someInitialText = {someInitialText}");
+Console.WriteLine($"Random integer value returned by function: {intRandomValue}");
+Console.WriteLine($"String value returned by function: {processedText}");
+
+Console.WriteLine("==========================================================================");
+
+
+(int randomNumber, string text) GetRandomNumberWithSomeText(string initialText)
+{
+    // calling function, declared before (check line #16)
+    int randomNumber = getRandomInt();
+
+    string processedText = $"AAAAAAAAA__{initialText}";
+
+    return (randomNumber, processedText);
 }
