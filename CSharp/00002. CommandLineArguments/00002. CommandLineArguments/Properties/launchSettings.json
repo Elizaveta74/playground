@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "No params profile": {
+      "commandName": "Project"
+    },
+    "One param profile": {
+      "commandName": "Project",
+      "commandLineArgs": "someparam1"
+    },
+    "Two params profile": {
+      "commandName": "Project",
+      "commandLineArgs": "someparam1 someparam2"
+    },
+    "Three params profile": {
+      "commandName": "Project",
+      "commandLineArgs": "someparam1 someparam2 someparam3"
+    }
+  }
+}
