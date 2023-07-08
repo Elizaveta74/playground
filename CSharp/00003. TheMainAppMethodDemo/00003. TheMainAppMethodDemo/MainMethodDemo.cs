@@ -1,4 +1,6 @@
-﻿namespace MainAppMethodDemo
+﻿// This lesson demonstrates ways in which you can declare the main application method
+
+namespace MainAppMethodDemo
 {
     public class MainMethodDemo
     {
