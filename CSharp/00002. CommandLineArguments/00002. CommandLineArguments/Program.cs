@@ -1,4 +1,6 @@
-﻿namespace CommandLineArguments
+﻿// This lesson demonstrates command line argument handling
+
+namespace CommandLineArguments
 {
     internal class Program
     {
