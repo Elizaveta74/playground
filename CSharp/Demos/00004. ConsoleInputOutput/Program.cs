@@ -23,7 +23,3 @@ Console.Clear();
 Console.Write("Enter any text and press Enter: ");
 var enteredText = Console.ReadLine();
 Console.WriteLine($"You have entered: {enteredText}");
-
-Console.WriteLine("Type a letter and press Enter ...");
-int letterCode = Console.Read();
-Console.WriteLine($"You have typed a letter with a code: {letterCode}");
