@@ -6,7 +6,7 @@ This repository contains projects written in C#. The main purpose of the reposit
 
 ### Demonstration projects
 
-1. [Functions Demo](Demos/00001.%20Functions/)
+1. [Functions](Demos/00001.%20Functions/)
 2. [Command Line Arguments](Demos/00002.%20CommandLineArguments/)
-3. [Main(string[]) method demo](Demos/00003.%20TheMainAppMethodDemo/)
+3. [Main(string[]) method](Demos/00003.%20TheMainAppMethodDemo/)
 4. [Console Input/Output](Demos/00004.%20ConsoleInputOutput)
