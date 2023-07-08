@@ -6,7 +6,7 @@ namespace CommandLineArguments
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Total app parameters: {args.Length}");
+            Console.WriteLine($"App parameters count = {args.Length}");
 
             // if there's at least one parameter present
             if (args.Length > 0)

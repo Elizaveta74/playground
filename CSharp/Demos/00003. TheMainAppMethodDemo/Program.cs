@@ -1,8 +1,8 @@
 ﻿// This lesson demonstrates ways in which you can declare the main application method
 
-namespace MainAppMethodDemo
+namespace TheMainAppMethodDemo
 {
-    public class MainMethodDemo
+    internal class Program
     {
         //public static void Main(string[] args)
         //{
@@ -24,5 +24,3 @@ namespace MainAppMethodDemo
         }
     }
 }
-
-
