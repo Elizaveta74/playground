@@ -11,3 +11,4 @@ This repository contains projects written in C#. The main purpose of the reposit
 3. [Main(string[]) method](Demos/00003.%20TheMainAppMethodDemo/)
 4. [Console Input/Output](Demos/00004.%20ConsoleInputOutput)
 5. [Conditionals And Loops](Demos/00005.%20ConditionalsAndLoops)
+6. [Calling methods with parameters](Demos/00006.%20CallingMethodsWithParameters)
