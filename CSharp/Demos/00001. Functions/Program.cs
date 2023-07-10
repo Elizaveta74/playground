@@ -6,14 +6,14 @@ Console.WriteLine("This lesson will show you how to declare and call functions")
 
 Console.WriteLine("============= Getting a random integer number =============");
 
-int randomIntValue = getRandomInt();
+int randomIntValue = GetRandomInt();
 
 Console.WriteLine($"Random integer value = {randomIntValue}");
 Console.WriteLine("===========================================================");
 
 // this function does not take any parameters (arguments)
 // and returns random number
-int getRandomInt()
+int GetRandomInt()
 {
     Random randomNumberGenerator = new();
     int randomNumber = randomNumberGenerator.Next();
@@ -25,7 +25,7 @@ Console.WriteLine("================= Summing two numbers =====================")
 
 int firstArgumentForSum = 11;
 int secondArgumentForSum = 28;
-int sumResult = sum(firstArgumentForSum, secondArgumentForSum);
+int sumResult = Sum(firstArgumentForSum, secondArgumentForSum);
 
 Console.WriteLine($"First argument: {firstArgumentForSum}");
 Console.WriteLine($"Second argument: {secondArgumentForSum}");
@@ -33,7 +33,7 @@ Console.WriteLine($"Sum result: {sumResult}");
 Console.WriteLine("===========================================================");
 
 // this function takes two integer parameters (arguments) and returns an integer value containing their sum
-int sum(int a, int b)
+int Sum(int a, int b)
 {
     int result = a + b;
     return result;
@@ -43,7 +43,7 @@ Console.WriteLine("=============== Subtracting two numbers ===================")
 
 int firstArgumentForSubtraction = 15;
 int secondArgumentForSubtraction = 23;
-int subtractionResult = subtract(firstArgumentForSubtraction, secondArgumentForSubtraction);
+int subtractionResult = Subtract(firstArgumentForSubtraction, secondArgumentForSubtraction);
 
 Console.WriteLine($"First argument: {firstArgumentForSubtraction}");
 Console.WriteLine($"Second argument: {secondArgumentForSubtraction}");
@@ -52,7 +52,7 @@ Console.WriteLine("===========================================================")
 
 // this function takes two integer parameters (arguments) and returns an integer value
 // containing the results of subtracting the second parameter from the first.
-int subtract(int a, int b)
+int Subtract(int a, int b)
 {
     int result = a - b;
     return result;
@@ -60,20 +60,20 @@ int subtract(int a, int b)
 
 Console.WriteLine("======== Calling void function without arguments ============");
 
-calculateAnDisplayResults();
+CalculateAnDisplayResults();
 
 Console.WriteLine("===========================================================");
 
 // this function (method) does not take any parameters (arguments) and does not return a value.
 // all calculations are being done inside of this function and result is displayed on the screen.
-void calculateAnDisplayResults()
+void CalculateAnDisplayResults()
 {
     int d = 10;
     int e = 20;
-    int f = sum(d, e);
+    int f = Sum(d, e);
 
     int g = 40;
-    int h = subtract(f, g);
+    int h = Subtract(f, g);
 
     Console.WriteLine($"sum result f = {f}");
     Console.WriteLine($"subtraction result h = {h}");
@@ -95,7 +95,7 @@ Console.WriteLine("=============================================================
 (int randomNumber, string text) GetRandomNumberWithSomeText(string initialText)
 {
     // calling function, declared before (check line #16)
-    int randomNumber = getRandomInt();
+    int randomNumber = GetRandomInt();
 
     string processedText = $"AAAAAAAAA__{initialText}";
 
