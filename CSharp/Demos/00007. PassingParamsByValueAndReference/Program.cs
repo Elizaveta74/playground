@@ -91,6 +91,11 @@ namespace PassingParamsByValueAndReference
 
         static void ProcessEmployeeByValue(Employee employeeParameter)
         {
+            // Reference to employeeParameter cannot be changed in this case
+            // And while you can't change the reference to the object itself,
+            // you can change the internal state of the object by calling
+            // its methods and changing its properties.
+
             Employee anotherEmployee = new("Tom Sawyer");
             employeeParameter = anotherEmployee;
         }
