@@ -92,7 +92,7 @@ namespace PassingParamsByValueAndReference
         static void ProcessEmployeeByValue(Employee employeeParameter)
         {
             // employeeParameter references the same object as employee,
-            // declared on the class level above.
+            // declared on the class level above (line #9).
             // But reference to employeeParameter cannot be changed in this case
             // And while you can't change the reference to the object itself,
             // you can change the internal state of the object by calling
