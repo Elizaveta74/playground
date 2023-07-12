@@ -1,6 +1,6 @@
 ﻿// In this application we'll assume that static void Main(string[] args) represents an operating system.
 // And method SomeProcessMain(string[] args) represents the Main method of some application. And we'll call
-// this SomeProcessMain method like operating systems call Main method and pass parameters to it.
+// this SomeProcessMain method the way operating systems call the Main method and pass parameters to it.
 
 namespace CallingMethodsWithParameters
 {
