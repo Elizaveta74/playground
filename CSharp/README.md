@@ -17,7 +17,7 @@ This repository contains projects written in C#. The main purpose of the reposit
 
 ### Exercises
 
-<details><summary>00001. Print single-dimensional array elements</summary>
+<details><summary>Print single-dimensional array elements</summary>
 <hr>
 You have an array:
 
