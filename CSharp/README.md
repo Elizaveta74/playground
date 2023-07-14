@@ -24,8 +24,8 @@ You have an array:
 ````c#
 int[] myArray = {1, -20, 23, -4, 8, -91, 0, 77, -4, 43, 11, -91};
 ````
-Loop through all elements of this array and print only numbers greater than 0.
-
-Implement solution for `for` loop, `while` loop and `do-while` loop.
+* Loop through all elements of this array and print only numbers greater than 0.
+* Solve this task using `for` loop, `while` loop and `do-while` loop.
+* For every implementation (`for`-loop, `while` loop and `do-while` loop) create separate function (method) and call it accordingly.
 <hr>
 </details>
