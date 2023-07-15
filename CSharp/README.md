@@ -14,7 +14,6 @@ This repository contains projects written in C#. The main purpose of the reposit
 6. [Calling methods with parameters](Demos/00006.%20CallingMethodsWithParameters)
 7. [Passing parameters by value and by reference](Demos/00007.%20PassingParamsByValueAndReference)
 
-
 ### Exercises
 
 <details><summary>Print single-dimensional array elements</summary>
@@ -24,8 +23,12 @@ You have an array:
 ````c#
 int[] myArray = {1, -20, 23, -4, 8, -91, 0, 77, -4, 43, 11, -91};
 ````
+
 * Loop through all elements of this array and print only numbers greater than 0.
 * Solve this task using `for` loop, `while` loop and `do-while` loop.
 * For every implementation (`for`-loop, `while` loop and `do-while` loop) create separate function (method) and call it accordingly.
+
+[Implement this task in a console project](Tutorials/CreateConsoleProject.md)
+
 <hr>
 </details>
