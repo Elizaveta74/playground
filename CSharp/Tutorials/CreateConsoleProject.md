@@ -10,7 +10,7 @@
 
 3.Select `Playground/Exercises` folder and specify project name (without spaces) and click `Next` button on the right bottom corner of the window.
 
-![VSCreateConsoleProject](Media/VSCreateConsoleProject.png)
+![VSCreateConsoleProject](Media/CreateConsoleProject/VSCreateConsoleProject.png)
 
 4.Specify the most recent .NET version, today it is .NET 7.0, and enable `Do not use top-level statements`, then click `Create` button.
 
