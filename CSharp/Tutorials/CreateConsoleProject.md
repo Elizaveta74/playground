@@ -30,7 +30,7 @@ Copied files looks like that:
 
 ![OpenGitBashWindow](Media/CreateConsoleProject/OpenGitBashWindow.png)
 
-7.Create new branch with the same name as your task id in JIRA:
+7.Make sure you're on `master` branch and create new branch with the same name as your task id in JIRA:
 
 ![CreateNewBranch](Media/CreateConsoleProject/CreatingNewBranch.png)
 
