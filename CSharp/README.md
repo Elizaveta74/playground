@@ -26,3 +26,7 @@ int[] myArray = {1, -20, 23, -4, 8, -91, 0, 77, -4, 43, 11, -91};
 
 <hr>
 </details>
+
+Extract code to a void function()
+
+Extract codt to int function()
