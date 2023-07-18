@@ -4,10 +4,6 @@ This repository contains projects written in C#. The main purpose of the reposit
 
 ## Table of Contents
 
-### Sandbox projects
-
-	1. [Basics](Sandbox/Basics)
-
 ### Exercises
 
 <details><summary>Print single-dimensional array elements</summary>
