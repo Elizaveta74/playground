@@ -56,3 +56,41 @@ The result array should equal to
 
 <hr>
 </details>
+
+<details><summary>Split string to array of sub-strings</summary>
+<hr>
+
+Task id: `LSP-4`
+
+Write a function that takes two arguments. 
+
+The first is a string to process. The second is a character delimiter (of type char). 
+
+The function will return a string array containing the sub-strings in this case that are delimited by the second argument (delimiter symbol).
+
+Use of the standard `string.Split()` method is not allowed.
+
+For example for arguments:
+
+First argument (string): 
+
+```c#
+string stringToProcess = "Apple,Orange,Kiwi,Banana,Mulberry";
+```
+
+Second argument (char):
+
+```c#
+char delimiter = ',';
+```
+
+The function should return the following array:
+
+```c#
+{"Apple", "Orange", "Kiwi", "Banana", "Mulberry"}
+```
+
+[Implement this task in a console project](Tutorials/CreateConsoleProject.md)
+
+<hr>
+</details>
