@@ -4,7 +4,7 @@ This repository contains projects for different platforms and programming langua
 
 ## Table of Contents
 
-01. [CSharp](CSharp/README.md)
+01. [C#](CSharp/README.md)
 02. [JavaScript](JavaScript/README.md)
 03. [TypeScript](TypeScript/README.md)
 
