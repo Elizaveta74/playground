@@ -8,6 +8,7 @@ This repository contains projects written in C#. The main purpose of the reposit
 
 <details><summary>Print single-dimensional array elements</summary>
 <hr>
+
 Task id: `LSP-2`
 
 You have an array:
@@ -27,6 +28,7 @@ int[] myArray = {1, -20, 23, -4, 8, -91, 0, 77, -4, 43, 11, -91};
 
 <details><summary>Array multiplication</summary>
 <hr>
+
 Task id: `LSP-3`
 
 Write a function that takes two arguments, `firstArray` and `secondArray`. 
