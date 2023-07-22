@@ -93,6 +93,54 @@ The function should return the following array:
 <hr>
 </details>
 
+<details><summary>Min and max values in array</summary>
+<hr>
+
+Task id: `LSP-5`
+
+Write a function that takes two arguments. The first is an array of integer values, and the second is a logical type (`bool`).
+
+If the second argument is `true`, the function should return the maximum element of the array; if it is `false`, the function should return the minimum element of the array.
+
+For example:
+
+**First example**:
+
+First argument:
+
+```c#
+int[] myArray = { 29, -8, 6, 41, 15, 19, 21, 34, 0, 4};
+```
+
+Second argument:
+
+```c#
+bool findMaxValue = true;
+```
+
+The function should return `41`
+
+**Second example**:
+
+First argument:
+
+```c#
+int[] myArray = { 29, -8, 6, 41, 15, 19, 21, 34, 0, 4};
+```
+
+Second argument: 
+
+```c#
+bool findMaxValue = false;
+```
+
+The function should return:  `-8`
+
+[Implement this task in a console project](Tutorials/CreateConsoleProject.md)
+
+<hr>
+</details>
+
 
 ## SandBox
 
