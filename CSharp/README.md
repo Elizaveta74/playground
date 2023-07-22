@@ -149,3 +149,4 @@ The function should return:  `-8`
 3. [Advanced Functions Extractor](SandBox/AdvancedFunctionsExtractor) (added on `19 July 2023`)
 4. [More functions](SandBox/MoreFunctions) (added on `20 July 2023`)
 5. [Type conversions](SandBox/TypeConversions) (added on `22 July 2023`)
+6. [Conditionals and loops](SandBox/ConditionalsAndLoops) (added on `23 July 2023`)
