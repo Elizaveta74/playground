@@ -2,9 +2,7 @@
 
 This repository contains projects written in C#. The main purpose of the repository is to interact with the students doing the assignments.
 
-## Table of Contents
-
-### Exercises
+## Exercises
 
 <details><summary>Print single-dimensional array elements</summary>
 <hr>
@@ -94,3 +92,12 @@ The function should return the following array:
 
 <hr>
 </details>
+
+
+## SandBox
+
+1. [Basics](SandBox/Basics) (added on `16 July 2023`)
+2. [Function Extractor](SandBox/FunctionExtractor) (added on `18 July 2023`)
+3. [Advanced Functions Extractor](SandBox/AdvancedFunctionsExtractor) (added on `19 July 2023`)
+4. [More functions](SandBox/MoreFunctions) (added on `20 July 2023`)
+5. [Type conversions](SandBox/TypeConversions) (added on `22 July 2023`)
