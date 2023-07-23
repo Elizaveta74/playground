@@ -145,8 +145,9 @@ The function should return:  `-8`
 ## SandBox
 
 1. [Basics](SandBox/Basics) (added on `16 July 2023`)
-2. [Function Extractor](SandBox/FunctionExtractor) (added on `18 July 2023`)
-3. [Advanced Functions Extractor](SandBox/AdvancedFunctionsExtractor) (added on `19 July 2023`)
+2. [Function extractor](SandBox/FunctionExtractor) (added on `18 July 2023`)
+3. [Advanced functions extractor](SandBox/AdvancedFunctionsExtractor) (added on `19 July 2023`)
 4. [More functions](SandBox/MoreFunctions) (added on `20 July 2023`)
 5. [Type conversions](SandBox/TypeConversions) (added on `22 July 2023`)
 6. [Conditionals and loops](SandBox/ConditionalsAndLoops) (added on `23 July 2023`)
+7. [Logical operators](SandBox/LogicalOperators) (added on `23 July 2023`)
