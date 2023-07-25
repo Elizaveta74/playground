@@ -5,7 +5,8 @@ This repository contains projects written in C#. The main purpose of the reposit
 ## Exercises
 
 <details><summary>Print single-dimensional array elements</summary>
-<hr>
+
+---
 
 Task id: `LSP-2`
 
@@ -21,11 +22,13 @@ int[] myArray = {1, -20, 23, -4, 8, -91, 0, 77, -4, 43, 11, -91};
 
 [Implement this task in a console project](Tutorials/CreateConsoleProject.md)
 
-<hr>
+---
+
 </details>
 
 <details><summary>Array multiplication</summary>
-<hr>
+
+---
 
 Task id: `LSP-3`
 
@@ -52,11 +55,13 @@ The result array should equal to
 
 [Implement this task in a console project](Tutorials/CreateConsoleProject.md)
 
-<hr>
+---
+
 </details>
 
 <details><summary>Split string to array of sub-strings</summary>
-<hr>
+
+---
 
 Task id: `LSP-4`
 
@@ -90,11 +95,13 @@ The function should return the following array:
 
 [Implement this task in a console project](Tutorials/CreateConsoleProject.md)
 
-<hr>
+---
+
 </details>
 
 <details><summary>Min and max values in array</summary>
-<hr>
+
+---
 
 Task id: `LSP-5`
 
@@ -138,9 +145,9 @@ The function should return:  `-8`
 
 [Implement this task in a console project](Tutorials/CreateConsoleProject.md)
 
-<hr>
-</details>
+---
 
+</details>
 
 ## SandBox
 
