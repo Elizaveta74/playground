@@ -149,6 +149,36 @@ The function should return:  `-8`
 
 </details>
 
+<details><summary>Odd and even numbers separator</summary>
+
+---
+
+Task id: `LSP-6`
+
+Write a function that takes one argument: an integer array. The function should create and return two arrays (as a tuple), one containing only even values from the array passed as an argument to this function, and the other containing odd values from the same array.
+
+Consider `0` to be an even number.
+
+For example, for array:
+
+```c#
+int[] initialArray = {-1, 3, 5, 8, 2, 10, 1, 0, 20, 5, 17};
+```
+
+
+the function should return a tuple with two arrays:
+
+```c#
+int[] oddNumbers = {-1, 3, 5, 1, 5, 17};
+int[] evenNumbers = {8, 2, 10, 0, 20};
+```
+
+[Implement this task in a console project](Tutorials/CreateConsoleProject.md)
+
+---
+
+</details>
+
 ## SandBox
 
 1. [Basics](SandBox/Basics) (added on `16 July 2023`)
