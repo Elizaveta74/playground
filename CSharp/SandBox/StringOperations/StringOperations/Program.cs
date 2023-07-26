@@ -68,7 +68,7 @@ else
     string substringToTheEndOfString = sampleString.Substring(sampleSubstringIndex);
     Console.WriteLine($"Substring from found index to the end of the string: '{substringToTheEndOfString}'");
 
-    // Get substring from the found index with 4 symbols length
+    // get substring from the found index with 4 symbols length
     string substringWithFourSymbolsLength = sampleString.Substring(sampleSubstringIndex, 4);
     Console.WriteLine($"Substring from found index with 4 symbols length: '{substringWithFourSymbolsLength}'");
 }
