@@ -73,4 +73,15 @@ else
     Console.WriteLine($"Substring from found index with 4 symbols length: '{substringWithFourSymbolsLength}'");
 }
 
+// to check if string is empty or contains only whitespace symbols, use string.IsNullOrWhiteSpace()
+string anotherString = "      ";
+if (string.IsNullOrWhiteSpace(anotherString))
+{
+    Console.WriteLine("anotherString is empty or contains only whitespace symbols");
+}
+else
+{
+    Console.WriteLine("anotherString is NOT empty");
+}
+
 // More info on string operations: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/
