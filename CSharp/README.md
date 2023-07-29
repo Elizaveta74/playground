@@ -189,3 +189,4 @@ int[] evenNumbers = {8, 2, 10, 0, 20};
 6. [Conditionals and loops](SandBox/ConditionalsAndLoops) (added on `23 July 2023`)
 7. [Logical operators](SandBox/LogicalOperators) (added on `23 July 2023`)
 8. [String operations](SandBox/StringOperations) (added on `26 July 2023`)
+9. [Bitwise and shift operations](SandBox/BitwiseAndShiftOperations) (added on `28 July 2023`)
