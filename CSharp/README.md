@@ -179,6 +179,45 @@ int[] evenNumbers = {8, 2, 10, 0, 20};
 
 </details>
 
+<details><summary>One-dimensional array sorting</summary>
+
+---
+
+Task id: `LSP-7`
+
+Write a function that takes the following arguments:
+
+* An array of integers
+
+* An initial index, up to and including `startIndex`
+
+* An end index (inclusive):  `endIndex`
+
+In the array passed, all elements from `startIndex` to `endIndex` must be sorted in ascending order.
+
+The function must return the array passed to it in the parameters, with all necessary changes made.
+
+For example, for arguments:
+
+```c#
+int[] initialArray = {10, 38, -12, -19, 37, 9, -1, 6};
+int startIndex = 2;
+int endIndex = 5;
+```
+
+Function must return:
+```c#
+{10, 38, -19, -12, 9, 37, -1, 6};
+```
+
+Perform any necessary checks you deem appropriate.
+
+[Implement this task in a console project](Tutorials/CreateConsoleProject.md)
+
+---
+
+</details>
+
 ## SandBox
 
 1. [Basics](SandBox/Basics) (added on `16 July 2023`)
