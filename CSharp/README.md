@@ -230,3 +230,4 @@ Perform any necessary checks you deem appropriate.
 8. [String operations](SandBox/StringOperations) (added on `26 July 2023`)
 9. [Bitwise and shift operations](SandBox/BitwiseAndShiftOperations) (added on `28 July 2023`)
 10. [Flow control samples](SandBox/FlowControlSamples) (added on `1 Aug 2023`)
+11. [Sequence extraction and printing](SandBox/SequenceExtractor) (added on `7 Aug 2023`)
