@@ -18,14 +18,24 @@ bool IsNumerEvenOptimizedWay(int number)
     return number % 2 == 0;
 }
 
+bool IsNumerEvenMoreOptimizedWay(int number)
+{
+    // checking if the first bit at the right side is set to 1
+    // if it is not set, then the number is even, otherwise it is odd
+    return (number & 1) == 0;
+}
+
 void PrintIsNumberEvenOrNot(int number)
 {
     PrintLineSeparator();
 
     bool isNumberEvenGenericWay = IsNumberEven(number);
     bool isNumberEvenOptimizedWay = IsNumerEvenOptimizedWay(number);
+    bool isNumberEvenMoreOptimizedWay = IsNumerEvenMoreOptimizedWay(number);
+
     Console.WriteLine($"Is number {number} even (generic way)? {isNumberEvenGenericWay}");
     Console.WriteLine($"Is number {number} even (optimized way)? {isNumberEvenOptimizedWay}");
+    Console.WriteLine($"Is number {number} even (more optimized way)? {isNumberEvenMoreOptimizedWay}");
 
     PrintLineSeparator();
 }
