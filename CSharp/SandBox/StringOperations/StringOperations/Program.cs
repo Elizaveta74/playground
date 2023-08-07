@@ -33,20 +33,34 @@ string composedString1 = part1 + ", " + part2;
 
 Console.WriteLine($"composed string #1 = '{composedString1}'");
 
+Console.WriteLine("--------------------------------------------------------------");
+
 // interpolated string
 string composedString2 = $"{part1}, {part2}";
 
 Console.WriteLine($"composed string #2 = '{composedString2}'");
 
+Console.WriteLine("--------------------------------------------------------------");
+
 // Using StringBuilder (use it when you build string in a loop)
 StringBuilder sb = new();
-sb.Append(part1);
-sb.Append(", ");
-sb.Append(part2);
+
+string allSymbols = "*Apples,*Oranges,*Kiwis,*Peas,*Mangos";
+char symbolToSkip = '*';
+for(int i = 0; i < allSymbols.Length; i++)
+{
+    // skipping the * symbol
+    if (allSymbols[i] != symbolToSkip)
+    {
+        sb.Append(allSymbols[i]);
+    }
+}
 
 string composedString3 = sb.ToString();
 
-Console.WriteLine($"composed string #3 = '{composedString3}'");
+Console.WriteLine($"Removed the symbol `{symbolToSkip}` from the string `{allSymbols}`, result is `{composedString3}`");
+
+Console.WriteLine("--------------------------------------------------------------");
 
 // *********** getting index of the substring in a string ***********
 string sampleString = "Hello, it is a sample string, la-la-laaaaa!!!!";
@@ -62,7 +76,7 @@ if (sampleSubstringIndex == -1)
 else
 {
     // if substring found
-    Console.WriteLine($"Index of 'sample' substring = {sampleSubstringIndex}");
+    Console.WriteLine($"Index of 'sample' substring in the string `{sampleString}` is {sampleSubstringIndex}");
 
     // get substring from the found index to the end of the string
     string substringToTheEndOfString = sampleString.Substring(sampleSubstringIndex);
@@ -72,6 +86,8 @@ else
     string substringWithFourSymbolsLength = sampleString.Substring(sampleSubstringIndex, 4);
     Console.WriteLine($"Substring from found index with 4 symbols length: '{substringWithFourSymbolsLength}'");
 }
+
+Console.WriteLine("--------------------------------------------------------------");
 
 // to check if string is empty or contains only whitespace symbols, use string.IsNullOrWhiteSpace()
 string anotherString = "      ";
@@ -83,5 +99,7 @@ else
 {
     Console.WriteLine("anotherString is NOT empty");
 }
+
+Console.WriteLine("--------------------------------------------------------------");
 
 // More info on string operations: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/

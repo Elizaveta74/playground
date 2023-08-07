@@ -17,6 +17,11 @@ string ConvertIntToBinaryString(uint intValue)
     return Convert.ToString(intValue, 2);
 }
 
+string ConvertByteToBinaryString(byte intValue)
+{
+    return Convert.ToString(intValue, 2).PadLeft(8, '0');
+}
+
 // ======================== FUNCTION DECLARATION BLOCK END =========================
 
 // ======================== CALLING DECLARED FUNCTIONS BELOW THIS POINT ============
@@ -83,7 +88,7 @@ Console.WriteLine("\n");
  */
 
 // all 8 flags are set to false: 00000000
-// bit positions are counting from left to right
+// bit positions are counting from right to left
 byte allFlags = 0;
 
 // setting the second, third forth bits to 1
@@ -124,5 +129,24 @@ if ((allFlags & maskToCheckThirdBitSet) != 0)
 else
 {
     Console.WriteLine($"allFlags has 3-rd bit NOT set\t\t\t\tbinary representation: {allFlagsBinaryRepresentationString}");
+}
+
+Console.WriteLine("\n");
+
+// checking a group of set bits at once (we'll check first, second and fifth bits are set to 1)
+byte eightFlags = 0b01010111; // the place where we'll check bits
+byte maskToApplyToEightFlagsVariable = 0b00010011;
+
+Console.WriteLine($"eightFlags:\t\t\t{ConvertByteToBinaryString(eightFlags)}");
+Console.WriteLine($"The mask to be used:\t\t{ConvertByteToBinaryString(maskToApplyToEightFlagsVariable)}");
+
+// applying mask to the flags variable
+if ( (eightFlags & maskToApplyToEightFlagsVariable) == maskToApplyToEightFlagsVariable)
+{
+    Console.WriteLine("CHECK RESULT: first, second and fifth bits are set to 1 together");
+}
+else
+{
+    Console.WriteLine("CHECK RESULT: first, second and fifth bits are NOT set to 1 together");
 }
 
