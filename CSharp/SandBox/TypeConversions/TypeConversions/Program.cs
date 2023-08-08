@@ -27,3 +27,23 @@ else
 {
     Console.WriteLine($"Conversion failed, value you provided cannot be convered to int number: {anotherStringValue}");
 }
+
+// Entering and parsing integer value from the keyboard
+Console.Write("Enter a number: ");
+string stringValueFromKeyboard = Console.ReadLine();
+
+// trying to convert entered string value to int number
+bool conversionFromStringToIntIsSuccessful = int.TryParse(stringValueFromKeyboard, out int valueConvertedFromStringToIntType);
+
+if (conversionFromStringToIntIsSuccessful)
+{
+    int processingResult = valueConvertedFromStringToIntType + 10;
+    Console.WriteLine($"Added 10 to the entered value {valueConvertedFromStringToIntType}, the result is: {processingResult}");
+}
+else
+{
+    Console.WriteLine($"Expected value, that can be converted to a number, but you entered: {stringValueFromKeyboard}");
+}
+
+
+
