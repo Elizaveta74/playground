@@ -231,6 +231,43 @@ Write a program that declares a 3x3 two-dimensional array of strings. Then, take
 
 </details>
 
+<details><summary>Calculate and print the sum of diagonal elements of square matrix</summary>
+---
+
+Task id: `LSP-9`
+
+Write a program that fills a square two-dimensional array NxN with integer values. The value for N is also entered on the keyboard. After filling the array, the program should calculate the sum of all diagonal elements and display it on the screen.
+
+Perform any necessary checks you deem appropriate.
+
+[Implement this task in a console project](Tutorials/CreateConsoleProject.md)
+
+---
+
+</details>
+
+<details><summary>Calculate and print the sum of diagonal elements of square matrix (Advanced steps)</summary>
+---
+
+Task id: `LSP-10`
+
+This task is based on `LSP-9`.
+
+Make the mechanism for entering a number from the keyboard and the calculation of the sum of the diagonal elements separate functions.
+
+The function for calculating the sum of the diagonal elements should not display anything on the screen, but only return the value of the sum.
+
+And the program will print the value, returned by that function.
+
+Bonus task: Think about how to solve this problem without allocating memory for a two-dimensional array.
+
+[Implement this task in a console project](Tutorials/CreateConsoleProject.md)
+
+---
+
+</details>
+
+
 
 ## SandBox
 
