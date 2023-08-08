@@ -218,6 +218,20 @@ Perform any necessary checks you deem appropriate.
 
 </details>
 
+<details><summary>Fill and print a two-dimensional array of strings</summary>
+---
+
+Task id: `LSP-8`
+
+Write a program that declares a 3x3 two-dimensional array of strings. Then, take values for each element of this matrix from the keyboard, and after getting all the values, print a 3x3 matrix of all the values of this two-dimensional array to the screen.
+
+[Implement this task in a console project](Tutorials/CreateConsoleProject.md)
+
+---
+
+</details>
+
+
 ## SandBox
 
 1. [Basics](SandBox/Basics) (added on `16 July 2023`)
