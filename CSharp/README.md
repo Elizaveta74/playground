@@ -4,7 +4,7 @@ This repository contains projects written in C#. The main purpose of the reposit
 
 ## Tutorials
 
-[ow to count the number of sequences in an array](Tutorials/NumberOfSequences.md)
+[How to count the number of sequences in an array](Tutorials/NumberOfSequences.md)
 
 [Relationship between flowchart and code](Tutorials/FlowchartAndCodeRelationship.md)
 
