@@ -4,7 +4,8 @@ This repository contains projects written in C#. The main purpose of the reposit
 
 ## Tutorials
 
-[How to create console C# project in Visual Studio 2022](Tutorials/CreateConsoleProject.md)
+[Relationship between flowchart and code](Tutorials/FlowchartAndCodeRelationship.md)
 
 [Strings, numbers and data input/output in C# console applications](Tutorials/ConsoleInputAndOutput.md)
 
+[How to create console C# project in Visual Studio 2022](Tutorials/CreateConsoleProject.md)

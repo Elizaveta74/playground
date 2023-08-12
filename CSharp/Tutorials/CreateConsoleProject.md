@@ -1,5 +1,7 @@
 # How to create console C# project in Visual Studio 2022
 
+`By Rafael Osipov, Last Updated on July 15, 2023`
+
 1.Launch Visual Studio 2022 and select "Create new project"
 
 ![VSNewProjectWindow](Media/CreateConsoleProject/VSNewProjectWindow.png)

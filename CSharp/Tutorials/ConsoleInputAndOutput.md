@@ -1,5 +1,7 @@
 # Strings, numbers and data input/output in C# console applications
 
+`By Rafael Osipov, Last Updated on Aug 12, 2023`
+
 ## Print to the console window
 
 To print something to the console window, you can use `Console.Write()` and `Console.WriteLine()` calls.
