@@ -18,7 +18,7 @@ Console.Write("The second call");
 Will print:
 
 ```
-TheFirstCallThe second call
+The first callThe second call
 ```
 
 Check out the following slow-motion video of the running code and note that the starting point of the second string will be printed.
