@@ -37,7 +37,7 @@ Console.WriteLine("The second call");
 will print
 
 ```
-TheFirstCall
+The first call
 The second call
 ```
 
