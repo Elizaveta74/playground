@@ -11,5 +11,3 @@ Assignments are [located here](Assignments/README.md).
 [Relationship between flowchart and code](Tutorials/FlowchartAndCodeRelationship.md)
 
 [Strings, numbers and data input/output in C# console applications](Tutorials/ConsoleInputAndOutput.md)
-
-[How to create console C# project in Visual Studio 2022](Tutorials/CreateConsoleProject.md)
