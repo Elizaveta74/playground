@@ -2,6 +2,8 @@
 
 This repository contains projects written in C#. The main purpose of the repository is to interact with the students doing the assignments.
 
+Assignments are [located here](Assignments/README.md).
+
 ## Tutorials
 
 [How to count the number of sequences in an array](Tutorials/NumberOfSequences.md)
